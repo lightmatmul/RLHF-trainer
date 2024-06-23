@@ -1,6 +1,6 @@
 # RLHF Training for LLMs
 
-This repository contains implementations for Reinforcement Learning with Human Feedback (RLHF) training of Large Language Models (LLMs) using Supervised Fine-Tuning (SFT), Reward Modeling, and Proximal Policy Optimization (PPO). The goal is to create a modular and maintainable codebase for replicating RLHF training on LLMs like LLaMA.
+This repository contains implementations for Reinforcement Learning with Human Feedback (RLHF) training of Large Language Models (LLMs) using Supervised Fine-Tuning (SFT), Reward Modeling, and Proximal Policy Optimization (PPO). The goal is to create a modular and maintainable codebase for replicating RLHF training on LLMs like LLaMA. The following codebase is specific to LLaMa 2, so while the components can work universally, data related components (such as special token formatting) need to be modified to fit other models.
 
 ## Table of Contents
 
