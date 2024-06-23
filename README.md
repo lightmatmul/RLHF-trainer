@@ -35,16 +35,31 @@ This repository contains implementations for Reinforcement Learning with Human F
 
 To train a model using Supervised Fine-Tuning (SFT), run the following script:
 
-```bash
-python scripts/train_sft.py```
+  ```bash
+  python scripts/train_sft.py
+```
 
 ### Reward Modeling
 
 To train a reward model, run the following script:
 ```bash
-python scripts/train_reward.py```
+python scripts/train_reward.py
+```
 
+### Proximal Policy Optimization
 
+To train a model using Proximal Policy Optimization (PPO), run the following script:
+```bash
+python scripts/train_ppo.py
+```
+
+### Configuration
+
+The configuration files are located in the configs/ directory. Here’s a brief description of each:
+
+  1. lora_config.py: Contains the configuration for LoRA (Low-Rank Adaptation).
+  2. reward_config.py: Contains the constants and configurations specific to Reward Modeling.
+  3. ppo_config.py: Contains the constants and configurations specific to PPO.
 
 
 
