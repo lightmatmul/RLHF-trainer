@@ -17,7 +17,7 @@ This repository contains implementations for Reinforcement Learning with Human F
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/rlhf_training.git
+   git clone https://github.com/lightmatmul/rlhf_training.git
    cd rlhf_training```
 
 2. **Create and activate a virtual environment:**
