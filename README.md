@@ -61,6 +61,22 @@ The configuration files are located in the configs/ directory. Here’s a brief 
   2. reward_config.py: Contains the constants and configurations specific to Reward Modeling.
   3. ppo_config.py: Contains the constants and configurations specific to PPO.
 
+### Evaluation
+
+GPT is used as AI evaluator to determine evaluate the impact of the alignment tuning compared to the original supervised finetuned model:
+```bash
+python eval/gpt_evaluator.py
+python eval/count_wins.py
+```
+
+### Inference
+
+To interact with the trained models, run the following scriptL:
+```bash
+python scripts/inference.py
+```
+
+
 
 
 
